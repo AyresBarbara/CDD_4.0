@@ -4,4 +4,4 @@ nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: "))
 salario = float(input("Digite seu salário: "))
 
-print("A ", nome," tem ", idade, " anos e recebe um salário de ", salario, "reais")
+print(f"Olá {nome}, sua idade é {idade} anos e seu salário é {salario} reais")
