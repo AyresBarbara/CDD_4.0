@@ -19,4 +19,4 @@ if totalMin >= 60:
 if totalH >= 12:
     totalH -= 12
 
-print(f"{totalH}:{totalMin}")
+print(f"{totalH}:{totalMin:02d}")
