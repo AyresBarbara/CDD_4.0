@@ -1,0 +1,1 @@
+def qtdLetras(texto):
