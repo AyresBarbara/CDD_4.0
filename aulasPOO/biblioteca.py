@@ -12,17 +12,21 @@ class Pessoa:
         self.falando == True
 
     def pararFalar(self):
-        print(f"{self.nome} não está falando")
+        print(f"{self.nome} parou de falar")
         self.falando == False
 
     def comer(self):
-        print (f"{self.nome} foi comer")
+        print (f"{self.nome} está comendo")
+        self.comendo == True
 
     def pararComer(self):
-        print()
+        print(f"{self.nome} parou de comer")
+        self.comendo == False
 
     def acordar(self):
-        print()
+        print(f"{self.nome} não está dormindo")
+        self.dormindo == False
 
     def dormir(self):
         print(f"{self.nome} foi dormir")
+        self.dormindo == True
