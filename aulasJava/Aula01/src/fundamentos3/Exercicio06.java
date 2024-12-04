@@ -7,7 +7,7 @@ public class Exercicio06 {
 		int tam = arrayString.length;
 		
 		for(int i =0; i< tam; i ++)
-		System.out.print(arrayString[i] + " ");
+		System.out.print(arrayString[i].toUpperCase() + " ");
 	}
 
 }
