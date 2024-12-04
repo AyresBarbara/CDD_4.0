@@ -45,11 +45,14 @@ public class Exemplo03 {
 		int tam = str.length();
 		System.out.println(tam);
 		
+		//retorna o indice da primeira ocorrÊncia de "l"
 		int pos = str.indexOf("l");
 		System.out.println(pos);
 		
+		//retorna o indice da ultima ocorrÊncia de "l"
 		int pos2 = str.lastIndexOf("l");
 		System.out.println(pos2);
+		
 		
 	}
 
