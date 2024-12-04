@@ -23,7 +23,7 @@ public class Exemplo03 {
 		String resultado3 = str.toLowerCase();
 		System.out.println(resultado3);
 		
-		//Trim - retira os espaços em branco
+		//Trim - retira os espaços em branco no inicio e no fim
 		String resultado4 = str.trim();
 		System.out.println(resultado4);
 		
@@ -41,8 +41,16 @@ public class Exemplo03 {
 		System.out.println(b3);
 		System.out.println(b4);
 		
+		//Conta o tamanho da string
 		int tam = str.length();
 		System.out.println(tam);
+		
+		int pos = str.indexOf("l");
+		System.out.println(pos);
+		
+		int pos2 = str.lastIndexOf("l");
+		System.out.println(pos2);
+		
 	}
 
 }
