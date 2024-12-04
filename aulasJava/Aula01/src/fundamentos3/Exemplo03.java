@@ -4,18 +4,40 @@ public class Exemplo03 {
 
 	public static void main(String[] args) {
 		String str = "Hello World";
+		String s1 = "Hello";
+		String s2 = "HELLO";
+		
 		//imprimie a partir da 6º posição
 		String resultado = str.substring(6);
 		System.out.println(resultado);
+		
 		//imprime a partir da posição indicada, até o final da palavra
 		String resultado1 = str.substring(3,8);
 		System.out.println(resultado1);
+		
 		//Maiúsculo
 		String resultado2 = str.toUpperCase();
 		System.out.println(resultado2);
+		
 		//Minusculo
 		String resultado3 = str.toLowerCase();
 		System.out.println(resultado3);
+		
+		//Trim - retira os espaços em branco
+		String resultado4 = str.trim();
+		System.out.println(resultado4);
+		
+		char c = str.charAt(1);
+		System.out.println(c);
+		
+		boolean b1 = s1.equals("Hello");
+		boolean b2 = s1.equals(s2);
+		boolean b3 = s1.equalsIgnoreCase(s2);
+		boolean b4 = s1.equalsIgnoreCase("azul");
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println(b3);
+		System.out.println(b4);
 	}
 
 }
