@@ -27,9 +27,11 @@ public class Exemplo03 {
 		String resultado4 = str.trim();
 		System.out.println(resultado4);
 		
+		//Pega o caracter na posição indicada
 		char c = str.charAt(1);
 		System.out.println(c);
 		
+		//Comparando Strings
 		boolean b1 = s1.equals("Hello");
 		boolean b2 = s1.equals(s2);
 		boolean b3 = s1.equalsIgnoreCase(s2);
@@ -38,6 +40,9 @@ public class Exemplo03 {
 		System.out.println(b2);
 		System.out.println(b3);
 		System.out.println(b4);
+		
+		int tam = str.length();
+		System.out.println(tam);
 	}
 
 }
